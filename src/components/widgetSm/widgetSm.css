@@ -1,0 +1,57 @@
+.smallWidget {
+    flex:1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.smw-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.smw-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.smw-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.smw-listItem {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.smw-user {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.smw-userName {
+    font-weight: 600;
+}
+
+.smw-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #EEEEF7;
+    color: #666666;
+    cursor: pointer;
+}
+
+.smw-icon {
+    margin-right: 5px;
+}

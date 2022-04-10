@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.container {
+    display: flex;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}

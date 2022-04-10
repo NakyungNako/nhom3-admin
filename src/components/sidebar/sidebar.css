@@ -1,0 +1,43 @@
+.side{
+    flex: 1;
+    height: calc(100vh - 80px);
+    position: sticky;
+    top: 80px;
+
+}
+
+.side-wrap{
+    padding: 20px 40px 0 110px;
+    color: #666666;
+}
+
+.side-menu{
+    margin-bottom: 10px;
+}
+
+.side-title{
+    font-size: 13px;
+}
+
+.side-list {
+    list-style: none;
+    padding: 5px;
+}
+
+.side-listItem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.side-listItem.active,
+.side-listItem:hover {
+    background-color: #D3E0FF;
+}
+
+.side-icon {
+    margin-right: 5px;
+    font-size: 20px !important;
+}
